@@ -33,13 +33,11 @@ void time::sum (time t1,time t2)
 
 int main()
 {
-    time t1;
-    time t2;
-
+time t1,t2,t3;
     t1.get_time(3,40);
      t2.get_time(4,30);
 
-      time t3;
+
      t3.sum(t1,t2);
 
      t1.put_time();
